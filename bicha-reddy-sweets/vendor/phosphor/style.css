@@ -1,0 +1,110 @@
+<style>
+    body {
+        background-color: #FDFBF7;
+        color: #2C2A29;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    /* Hide scrollbar */
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    /* Product card */
+    .product-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px -5px rgba(114, 47, 55, 0.1);
+    }
+
+    /* =========================================
+       FORCE ALL PRODUCT IMAGES SAME SIZE
+       ========================================= */
+
+    .product-card .img-container {
+        width: 100% !important;
+        height: 220px !important;
+        min-height: 220px !important;
+        max-height: 220px !important;
+
+        aspect-ratio: auto !important;
+
+        overflow: hidden !important;
+        position: relative !important;
+
+        display: block !important;
+        flex-shrink: 0 !important;
+
+        background-color: #F8F5F2 !important;
+    }
+
+    .product-card .img-container img {
+        width: 100% !important;
+        height: 100% !important;
+
+        min-width: 100% !important;
+        max-width: none !important;
+
+        min-height: 100% !important;
+        max-height: none !important;
+
+        display: block !important;
+
+        object-fit: cover !important;
+        object-position: center !important;
+
+        transition: transform 0.5s ease;
+    }
+
+    .product-card:hover .img-container img {
+        transform: scale(1.03);
+    }
+
+    /* =========================================
+       PRODUCT NAME
+       ========================================= */
+
+    .product-card .product-info {
+        padding: 10px 12px 12px !important;
+        margin: 0 !important;
+        flex: none !important;
+        height: auto !important;
+        min-height: 0 !important;
+    }
+
+    .product-card .product-info h3 {
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1.25 !important;
+    }
+
+    /* =========================================
+       MOBILE
+       ========================================= */
+
+    @media (max-width: 767px) {
+        .product-card .img-container {
+            height: 180px !important;
+            min-height: 180px !important;
+            max-height: 180px !important;
+        }
+    }
+
+    /* Modal Animation */
+    #cart-modal,
+    #search-modal {
+        transition: opacity 0.3s ease;
+    }
+
+    #cart-drawer {
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+</style>
