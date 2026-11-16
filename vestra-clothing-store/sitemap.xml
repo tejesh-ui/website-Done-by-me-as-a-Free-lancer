@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: replace example.com with the live domain -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com/index.html</loc></url>
+  <url><loc>https://www.example.com/pages/about.html</loc></url>
+  <url><loc>https://www.example.com/pages/categories.html</loc></url>
+  <url><loc>https://www.example.com/pages/men.html</loc></url>
+  <url><loc>https://www.example.com/pages/women.html</loc></url>
+  <url><loc>https://www.example.com/pages/accessories.html</loc></url>
+  <url><loc>https://www.example.com/pages/gifting.html</loc></url>
+  <url><loc>https://www.example.com/pages/festive-wear.html</loc></url>
+  <url><loc>https://www.example.com/pages/personal-styling.html</loc></url>
+  <url><loc>https://www.example.com/pages/bulk-orders.html</loc></url>
+  <url><loc>https://www.example.com/pages/gallery.html</loc></url>
+  <url><loc>https://www.example.com/pages/stores.html</loc></url>
+  <url><loc>https://www.example.com/pages/contact.html</loc></url>
+  <url><loc>https://www.example.com/pages/faq.html</loc></url>
+  <url><loc>https://www.example.com/pages/privacy-policy.html</loc></url>
+  <url><loc>https://www.example.com/pages/terms-conditions.html</loc></url>
+  <url><loc>https://www.example.com/pages/refund-policy.html</loc></url>
+</urlset>
