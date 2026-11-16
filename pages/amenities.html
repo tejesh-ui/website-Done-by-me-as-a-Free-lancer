@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Amenities & Clubhouse | Green Haven Residences</title>
+  <meta name="description" content="Explore resort-style amenities at Green Haven Residences: 35,000 sq.ft. clubhouse, infinity swimming pool, gym, sports courts, and wellness pavilions.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/logo-mark.svg">
+
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/hero.css">
+  <link rel="stylesheet" href="../css/apartments.css">
+  <link rel="stylesheet" href="../css/amenities.css">
+  <link rel="stylesheet" href="../css/parks.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="../index.html" class="brand-link" aria-label="Green Haven Residences">
+        <div class="brand-emblem">
+          <img src="../assets/logos/logo-mark.svg" alt="Green Haven Crest" width="26" height="26">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">GREEN HAVEN</span>
+          <span class="brand-subtitle">RESIDENCES</span>
+        </div>
+      </a>
+
+      <nav class="nav-container" id="navContainer" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="apartments.html" class="nav-link">Apartments</a></li>
+          <li class="nav-item"><a href="amenities.html" class="nav-link active">Amenities</a></li>
+          <li class="nav-item"><a href="parks.html" class="nav-link">Parks</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="location.html" class="nav-link">Location</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="mobile-drawer-cta">
+          <a href="contact.html" class="btn btn-accent" style="width: 100%;">Schedule a Visit</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-accent btn-header-cta">Schedule a Visit</a>
+        <button class="nav-toggle-btn" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <main>
+    <!-- Sub-page Banner -->
+    <section class="section-dark" style="padding: 4.5rem 0 3.5rem; background: linear-gradient(135deg, var(--color-primary-dark) 0%, #153328 100%);">
+      <div class="container text-center">
+        <span class="badge badge-gold" style="margin-bottom: 1rem;">Resort Lifestyle</span>
+        <h1 class="section-title" style="color: #ffffff; font-size: 3.2rem;">Community Amenities</h1>
+        <p class="section-subtitle" style="color: var(--color-text-soft);">
+          35,000 square feet of curated recreation, fitness, wellness, and celebration spaces tailored for every member of your family.
+        </p>
+      </div>
+    </section>
+
+    <!-- Amenities Grid (Section 13) -->
+    <section class="section" id="amenitiesList">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 2.5rem;">
+          <span class="section-tag">Comprehensive Facilities</span>
+          <h2 class="section-title">Everything You Need, Close to Home</h2>
+          <p class="section-subtitle">
+            Explore our curated amenities spanning social gatherings, fitness training, wellness retreats, sports, and outdoor leisure.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-toolbar">
+          <div class="filter-pills">
+            <button class="filter-btn active" data-amenity-filter="all">All Amenities</button>
+            <button class="filter-btn" data-amenity-filter="Social">Social & Club</button>
+            <button class="filter-btn" data-amenity-filter="Wellness">Wellness & Spa</button>
+            <button class="filter-btn" data-amenity-filter="Fitness">Fitness & Gym</button>
+            <button class="filter-btn" data-amenity-filter="Family">Family & Kids</button>
+            <button class="filter-btn" data-amenity-filter="Sports">Sports Courts</button>
+            <button class="filter-btn" data-amenity-filter="Recreation">Indoor Games</button>
+          </div>
+        </div>
+
+        <div class="grid-3" id="amenitiesContainer"></div>
+
+        <!-- Swimming Pool Spotlight (Section 14) -->
+        <div class="pool-spotlight" style="margin-top: 5rem;">
+          <img src="../assets/images/swimming-pool/swimming-pool.jpg" alt="Swimming Pool & Aqua Deck" class="pool-banner-img" loading="lazy">
+          <div class="pool-spotlight-overlay">
+            <span class="badge badge-gold" style="width: fit-content; margin-bottom: 1rem;">Aquatic Retreat</span>
+            <h3 class="pool-spotlight-title">Relax. Refresh. Repeat.</h3>
+            <p class="pool-spotlight-desc">
+              Our semi-Olympic heated infinity lap pool is complemented by sunken teak sun decks, private lounge cabanas, and a dedicated shallow splash zone for toddlers.
+            </p>
+            <div class="pool-feature-pills">
+              <span class="pool-pill"><span class="pool-pill-dot"></span> Adult Infinity Pool (25m)</span>
+              <span class="pool-pill"><span class="pool-pill-dot"></span> Kids Splash Pool</span>
+              <span class="pool-pill"><span class="pool-pill-dot"></span> Shaded Poolside Seating</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clubhouse Split (Section 15) -->
+        <div class="clubhouse-split" id="clubhouse" style="margin-top: 5rem;">
+          <div class="clubhouse-media-collage">
+            <div class="clubhouse-media-item span-2">
+              <img src="../assets/images/clubhouse/clubhouse.jpg" alt="Grand Clubhouse Architecture" loading="lazy">
+            </div>
+            <div class="clubhouse-media-item">
+              <img src="../assets/images/clubhouse/lounge.jpg" alt="Clubhouse Lounge" loading="lazy">
+            </div>
+            <div class="clubhouse-media-item">
+              <img src="../assets/images/clubhouse/community-hall.jpg" alt="Community Banquet Hall" loading="lazy">
+            </div>
+          </div>
+
+          <div class="clubhouse-info">
+            <span class="section-tag">Community Hub</span>
+            <h3 class="section-title" style="font-size: 2.4rem;">The Grand Clubhouse</h3>
+            <p style="color: var(--color-text-muted); font-size: 1.05rem; line-height: 1.65;">
+              Spanning 35,000 square feet across two grand levels, the clubhouse serves as the vibrant social core of Green Haven Residences. Connect with friends, celebrate milestone birthdays, or work in quiet executive focus.
+            </p>
+
+            <div class="clubhouse-feature-list">
+              <div class="clubhouse-feature-box">
+                <h4>Resident Lounge & Cafe</h4>
+                <p>Casual seating, specialty coffees, and quiet morning reading corners.</p>
+              </div>
+              <div class="clubhouse-feature-box">
+                <h4>Grand Community Hall</h4>
+                <p>Air-conditioned banquet venue for 300 guests with private catering kitchen.</p>
+              </div>
+              <div class="clubhouse-feature-box">
+                <h4>Indoor Games Arena</h4>
+                <p>Billiards, table tennis, foosball, and digital gaming lounge.</p>
+              </div>
+              <div class="clubhouse-feature-box">
+                <h4>Fitness & Wellness Suites</h4>
+                <p>Multi-floor conditioning gym, yoga terrace, and sauna rooms.</p>
+              </div>
+            </div>
+
+            <div>
+              <a href="contact.html?interest=Clubhouse%20Tour" class="btn btn-primary">
+                <span>Book a Clubhouse Walkthrough</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Security & Parking (Sections 17 & 18) -->
+    <section class="section section-alt" id="security">
+      <div class="container">
+        <div class="grid-2">
+          <!-- Security Column -->
+          <div>
+            <div style="margin-bottom: 2rem;">
+              <span class="section-tag">Peace of Mind</span>
+              <h2 class="section-title" style="font-size: 2.2rem;">Safe. Secure. Peaceful.</h2>
+              <p style="color: var(--color-text-muted); font-size: 1rem; line-height: 1.6;">
+                Configurable community security protocols designed for comprehensive resident safety, privacy, and seamless access verification.
+              </p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <img src="../assets/icons/security.svg" alt="24/7 Security" width="26" height="26">
+                </div>
+                <div class="pillar-content">
+                  <h3>24/7 Security Personnel</h3>
+                  <p>Trained round-the-clock patrol units and security checkpoints at every community entrance.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <img src="../assets/icons/security.svg" alt="CCTV Monitoring" width="26" height="26">
+                </div>
+                <div class="pillar-content">
+                  <h3>Comprehensive CCTV Coverage</h3>
+                  <p>High-definition perimeter, elevator, lobby, and children's play area surveillance with centralized control.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <img src="../assets/icons/check.svg" alt="Controlled Entry" width="26" height="26">
+                </div>
+                <div class="pillar-content">
+                  <h3>Controlled Entry & Visitor Management</h3>
+                  <p>RFID resident boom barriers and smartphone-based digital guest invitation pre-approvals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Parking Column -->
+          <div>
+            <div style="margin-bottom: 2rem;">
+              <span class="section-tag">Seamless Mobility</span>
+              <h2 class="section-title" style="font-size: 2.2rem;">Convenient Parking</h2>
+              <p style="color: var(--color-text-muted); font-size: 1rem; line-height: 1.6;">
+                Intelligently engineered multi-level parking infrastructure keeping surface grounds 100% pedestrian-friendly.
+              </p>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <img src="../assets/icons/parking.svg" alt="Resident Parking" width="26" height="26">
+                </div>
+                <div class="pillar-content">
+                  <h3>Dedicated Resident Parking</h3>
+                  <p>Designated covered basement spaces assigned specifically to each residence configuration.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <img src="../assets/icons/parking.svg" alt="Visitor Parking" width="26" height="26">
+                </div>
+                <div class="pillar-content">
+                  <h3>Dedicated Visitor Parking</h3>
+                  <p>Ample, clearly marked ground and podium parking bays for visiting family and guests.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <img src="../assets/icons/check.svg" alt="EV Charging" width="26" height="26">
+                </div>
+                <div class="pillar-content">
+                  <h3>EV Charging Infrastructure</h3>
+                  <p>Fast electric vehicle charging points integrated into resident parking bays and guest zones.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="../index.html" class="footer-brand-link">
+            <img src="../assets/logos/logo-mark.svg" alt="Green Haven Crest" width="30" height="30">
+            <div>
+              <div class="footer-brand-title">GREEN HAVEN</div>
+              <div class="footer-brand-sub">RESIDENCES</div>
+            </div>
+          </a>
+          <p class="footer-desc">A premier residential enclave combining spacious contemporary residences, expansive botanical landscapes, and world-class recreation.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Explore</h4>
+          <ul class="footer-links-list">
+            <li><a href="apartments.html" class="footer-link">Apartments & Towers</a></li>
+            <li><a href="amenities.html" class="footer-link">Community Amenities</a></li>
+            <li><a href="parks.html" class="footer-link">Parks & Open Spaces</a></li>
+            <li><a href="gallery.html" class="footer-link">Photo Gallery</a></li>
+            <li><a href="location.html" class="footer-link">Neighborhood & Location</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Community</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">About Green Haven</a></li>
+            <li><a href="contact.html" class="footer-link">Schedule a Visit</a></li>
+            <li><a href="#security" class="footer-link">Security & Parking</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-row"><span>Sales: +1 (800) 555-4283</span></div>
+            <div class="footer-contact-row"><span>Email: residences@greenhaven.com</span></div>
+            <div class="footer-contact-row"><span>100 Haven Blvd, Emerald District</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 Green Haven Residences. All rights reserved. Live Better. Live Together.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../js/app.js"></script>
+</body>
+</html>

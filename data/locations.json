@@ -1,0 +1,79 @@
+[
+  {
+    "category": "Schools & Education",
+    "name": "Oakridge International Academy",
+    "distance": "5 min",
+    "miles": "1.8 km",
+    "description": "Pre-K through Grade 12 IB world school with premier sports facilities."
+  },
+  {
+    "category": "Schools & Education",
+    "name": "Greenwood Valley High",
+    "distance": "8 min",
+    "miles": "3.2 km",
+    "description": "Top-tier STEM curriculum and expansive arts conservatory campus."
+  },
+  {
+    "category": "Healthcare & Hospitals",
+    "name": "Apollo Super-Speciality Hospital",
+    "distance": "8 min",
+    "miles": "2.9 km",
+    "description": "24/7 trauma emergency care, pediatric center, and multispeciality wing."
+  },
+  {
+    "category": "Healthcare & Hospitals",
+    "name": "Columbia Asia Care Centre",
+    "distance": "12 min",
+    "miles": "4.5 km",
+    "description": "Renowned diagnostic laboratories, specialist clinics, and pharmacy."
+  },
+  {
+    "category": "Shopping & Entertainment",
+    "name": "The Grand Galleria Mall",
+    "distance": "10 min",
+    "miles": "3.8 km",
+    "description": "Multiplex cinema, luxury flagship stores, hypermarket, and rooftop dining."
+  },
+  {
+    "category": "Shopping & Entertainment",
+    "name": "Nature's Basket Gourmet Market",
+    "distance": "4 min",
+    "miles": "1.2 km",
+    "description": "Artisanal bakery, organic produce, imported goods, and daily essentials."
+  },
+  {
+    "category": "Restaurants & Cafes",
+    "name": "Artisan Roasters & Lakeside Bistros",
+    "distance": "6 min",
+    "miles": "2.1 km",
+    "description": "Vibrant culinary strip featuring specialty coffees, Italian eateries, and patisseries."
+  },
+  {
+    "category": "Public Transport",
+    "name": "Central Metro Station (Blue Line)",
+    "distance": "6 min",
+    "miles": "2.4 km",
+    "description": "Direct rapid metro connectivity to airport and downtown business center."
+  },
+  {
+    "category": "Public Transport",
+    "name": "Greenfield Expressway Junction",
+    "distance": "4 min",
+    "miles": "1.5 km",
+    "description": "Seamless high-speed connectivity to interstate corridors."
+  },
+  {
+    "category": "IT & Business Districts",
+    "name": "CyberTech Innovation Tech Park",
+    "distance": "15 min",
+    "miles": "6.2 km",
+    "description": "Home to Fortune 500 technology campuses and global corporate headquarters."
+  },
+  {
+    "category": "IT & Business Districts",
+    "name": "Financial City Hub",
+    "distance": "18 min",
+    "miles": "7.5 km",
+    "description": "Banking district, fintech incubators, and luxury business hotels."
+  }
+]

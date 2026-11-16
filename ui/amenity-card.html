@@ -1,0 +1,22 @@
+<!-- REUSABLE COMPONENT: AMENITY CARD -->
+<!-- To modify amenity card markup, edit this file. -->
+<article class="amenity-card" data-category="{{category}}" data-id="{{id}}">
+  <div class="amenity-img-wrap">
+    <img src="{{image}}" alt="{{name}}" class="amenity-img" loading="lazy">
+    <div class="amenity-icon-badge">
+      <img src="{{icon}}" alt="{{name}} icon" width="22" height="22">
+    </div>
+  </div>
+
+  <div class="amenity-body">
+    <h3 class="amenity-title">{{name}}</h3>
+    <p class="amenity-desc">{{shortDescription}}</p>
+
+    <div class="amenity-footer">
+      <span class="amenity-cat">{{category}}</span>
+      <button class="btn btn-secondary btn-amenity-details" data-amenity-id="{{id}}">
+        <span>Learn More</span>
+      </button>
+    </div>
+  </div>
+</article>

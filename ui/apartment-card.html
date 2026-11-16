@@ -1,0 +1,44 @@
+<!-- REUSABLE COMPONENT: APARTMENT CARD -->
+<!-- To modify apartment card markup, edit this file. -->
+<article class="apartment-card" data-category="{{category}}" data-id="{{id}}">
+  <div class="apartment-img-wrap">
+    <img src="{{image}}" alt="{{title}}" class="apartment-img" loading="lazy">
+    <span class="apartment-category-tag">{{type}}</span>
+    <span class="apartment-area-tag">{{area}}</span>
+  </div>
+
+  <div class="apartment-body">
+    <h3 class="apartment-title">{{title}}</h3>
+    <p class="apartment-desc">{{subtitle}}</p>
+
+    <div class="specs-grid">
+      <div class="spec-item">
+        <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16M2 8h18a2 2 0 0 1 2 2v10M2 17h20M6 8v9"/></svg>
+        <span class="spec-label">{{bedrooms}} Beds</span>
+      </div>
+      <div class="spec-item">
+        <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6 6.5 3.5a1.5 1.5 0 0 0-1-1C4.7 2.5 4 3.2 4 4v2M2 12h20a2 2 0 0 1 2 2v2a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4v-2a2 2 0 0 1 2-2Z"/><path d="M7 12v-6M4 20v2M20 20v2"/></svg>
+        <span class="spec-label">{{bathrooms}} Baths</span>
+      </div>
+      <div class="spec-item">
+        <svg class="spec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>
+        <span class="spec-label">{{parking}}</span>
+      </div>
+    </div>
+
+    <ul class="highlights-list">
+      {{#highlights}}
+      <li class="highlight-item">{{.}}</li>
+      {{/highlights}}
+    </ul>
+
+    <div class="apartment-footer">
+      <button class="btn btn-secondary btn-apartment-details" data-unit-id="{{id}}">
+        <span>View Details</span>
+      </button>
+      <a href="pages/contact.html?interest={{type}}" class="btn btn-primary">
+        <span>Book Tour</span>
+      </a>
+    </div>
+  </div>
+</article>

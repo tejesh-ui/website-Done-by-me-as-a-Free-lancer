@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery | Green Haven Residences</title>
+  <meta name="description" content="View photography of architecture, residences, clubhouse, and landscaped botanical gardens at Green Haven Residences.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/logo-mark.svg">
+
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/hero.css">
+  <link rel="stylesheet" href="../css/apartments.css">
+  <link rel="stylesheet" href="../css/amenities.css">
+  <link rel="stylesheet" href="../css/parks.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="../index.html" class="brand-link" aria-label="Green Haven Residences">
+        <div class="brand-emblem">
+          <img src="../assets/logos/logo-mark.svg" alt="Green Haven Crest" width="26" height="26">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">GREEN HAVEN</span>
+          <span class="brand-subtitle">RESIDENCES</span>
+        </div>
+      </a>
+
+      <nav class="nav-container" id="navContainer" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="apartments.html" class="nav-link">Apartments</a></li>
+          <li class="nav-item"><a href="amenities.html" class="nav-link">Amenities</a></li>
+          <li class="nav-item"><a href="parks.html" class="nav-link">Parks</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+          <li class="nav-item"><a href="location.html" class="nav-link">Location</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="mobile-drawer-cta">
+          <a href="contact.html" class="btn btn-accent" style="width: 100%;">Schedule a Visit</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-accent btn-header-cta">Schedule a Visit</a>
+        <button class="nav-toggle-btn" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <main>
+    <!-- Sub-page Banner -->
+    <section class="section-dark" style="padding: 4.5rem 0 3.5rem; background: linear-gradient(135deg, var(--color-primary-dark) 0%, #153328 100%);">
+      <div class="container text-center">
+        <span class="badge badge-gold" style="margin-bottom: 1rem;">Visual Exploration</span>
+        <h1 class="section-title" style="color: #ffffff; font-size: 3.2rem;">Life at Green Haven</h1>
+        <p class="section-subtitle" style="color: var(--color-text-soft);">
+          Immerse yourself in our community through high-resolution photography. Click any photo to view in fullscreen lightbox mode.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery Section (Section 20) -->
+    <section class="section" id="gallerySection">
+      <div class="container">
+        <!-- Filter Controls -->
+        <div class="filter-toolbar">
+          <div class="filter-pills">
+            <button class="filter-btn active" data-gallery-filter="all">All Photos</button>
+            <button class="filter-btn" data-gallery-filter="Exterior">Exterior</button>
+            <button class="filter-btn" data-gallery-filter="Apartments">Apartments</button>
+            <button class="filter-btn" data-gallery-filter="Parks">Parks</button>
+            <button class="filter-btn" data-gallery-filter="Amenities">Amenities</button>
+            <button class="filter-btn" data-gallery-filter="Clubhouse">Clubhouse</button>
+            <button class="filter-btn" data-gallery-filter="Lifestyle">Lifestyle</button>
+          </div>
+          <div style="font-size: 0.85rem; color: var(--color-text-muted);">
+            <em>Click photo to launch fullscreen lightbox</em>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="galleryContainer"></div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="container" style="margin-bottom: 4rem;">
+      <div class="cta-banner">
+        <img src="../assets/images/hero/community-hero.jpg" alt="Visit Today" class="cta-banner-bg" loading="lazy">
+        <div class="cta-banner-content">
+          <h2 class="cta-banner-title">Experience It With Your Own Eyes</h2>
+          <p class="cta-banner-text">
+            Photographs can only capture a glimpse. Schedule a private site tour and feel the calm breeze and greenery firsthand.
+          </p>
+          <a href="contact.html" class="btn btn-white">
+            <span>Book Your Tour</span>
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="../index.html" class="footer-brand-link">
+            <img src="../assets/logos/logo-mark.svg" alt="Green Haven Crest" width="30" height="30">
+            <div>
+              <div class="footer-brand-title">GREEN HAVEN</div>
+              <div class="footer-brand-sub">RESIDENCES</div>
+            </div>
+          </a>
+          <p class="footer-desc">A premier residential enclave combining spacious contemporary residences, expansive botanical landscapes, and world-class recreation.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Explore</h4>
+          <ul class="footer-links-list">
+            <li><a href="apartments.html" class="footer-link">Apartments & Towers</a></li>
+            <li><a href="amenities.html" class="footer-link">Community Amenities</a></li>
+            <li><a href="parks.html" class="footer-link">Parks & Open Spaces</a></li>
+            <li><a href="gallery.html" class="footer-link">Photo Gallery</a></li>
+            <li><a href="location.html" class="footer-link">Neighborhood & Location</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Community</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">About Green Haven</a></li>
+            <li><a href="contact.html" class="footer-link">Schedule a Visit</a></li>
+            <li><a href="amenities.html#security" class="footer-link">Security & Parking</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-row"><span>Sales: +1 (800) 555-4283</span></div>
+            <div class="footer-contact-row"><span>Email: residences@greenhaven.com</span></div>
+            <div class="footer-contact-row"><span>100 Haven Blvd, Emerald District</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 Green Haven Residences. All rights reserved. Live Better. Live Together.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!-- REUSABLE COMPONENT: PARK CARD -->
+<!-- To modify park card markup, edit this file. -->
+<article class="park-card" data-category="{{category}}" data-id="{{id}}">
+  <div class="park-img-wrap">
+    <img src="{{image}}" alt="{{name}}" class="park-img" loading="lazy">
+    <span class="park-category-badge">{{category}}</span>
+    <span class="park-area-badge">{{area}}</span>
+  </div>
+
+  <div class="park-body">
+    <h3 class="park-name">{{name}}</h3>
+    <p class="park-desc">{{description}}</p>
+
+    <ul class="park-features-list">
+      {{#features}}
+      <li class="park-feature-item">
+        <svg class="park-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        <span>{{.}}</span>
+      </li>
+      {{/features}}
+    </ul>
+
+    <div class="park-footer">
+      <button class="btn btn-primary btn-park-details" data-park-id="{{id}}">
+        <span>Explore Park</span>
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </div>
+  </div>
+</article>

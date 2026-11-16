@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <g transform="translate(4, 8)">
+    <path d="M24 2C24 2 38 12 38 28C38 38 30 46 24 46C18 46 10 38 10 28C10 12 24 2 24 2Z" fill="#1b4d3e" stroke="#d4af37" stroke-width="2"/>
+    <path d="M24 10V42M24 18L32 24M24 26L34 32M24 18L16 24M24 26L14 32" stroke="#d4af37" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="24" cy="24" r="2" fill="#d4af37"/>
+  </g>
+  <text x="64" y="32" font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-size="20" font-weight="700" letter-spacing="3" fill="#ffffff">GREEN HAVEN</text>
+  <text x="65" y="47" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="9" font-weight="600" letter-spacing="4" fill="#d4af37">RESIDENCES</text>
+</svg>

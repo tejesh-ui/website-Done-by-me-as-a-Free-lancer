@@ -1,0 +1,152 @@
+[
+  {
+    "id": "clubhouse",
+    "name": "The Grand Clubhouse",
+    "category": "Social",
+    "icon": "assets/icons/clubhouse.svg",
+    "image": "assets/images/amenities/clubhouse.jpg",
+    "shortDescription": "Community gathering and recreation space spanning 35,000 sq.ft. of luxury amenities.",
+    "longDescription": "The centerpiece of social vitality at Green Haven Residences. Featuring private lounges, an executive cafe, multipurpose banquet suites, a library lounge, and dedicated concierge services.",
+    "highlights": [
+      "Resident lounge & cafe bar",
+      "Private screening mini-theater",
+      "Banquet & celebration suites",
+      "High-speed Wi-Fi co-working suites"
+    ]
+  },
+  {
+    "id": "swimming-pool",
+    "name": "Resort Swimming Pool & Aqua Deck",
+    "category": "Wellness",
+    "icon": "assets/icons/pool.svg",
+    "image": "assets/images/amenities/swimming-pool.jpg",
+    "shortDescription": "Modern swimming and relaxation area with temperature-controlled lap lanes and kids pool.",
+    "longDescription": "A glittering aquatic retreat featuring a semi-Olympic sized infinity lap pool, shallow splash lagoon for toddlers, teak-decked cabanas, and sunken lounger seats enveloped in tropical palms.",
+    "highlights": [
+      "Semi-Olympic infinity lap pool",
+      "Toddlers splash pool with anti-slip bottom",
+      "Lush poolside sun decks with private cabanas",
+      "Heated jacuzzi and hydrotherapy zone"
+    ]
+  },
+  {
+    "id": "gym",
+    "name": "Fully Equipped Fitness Centre",
+    "category": "Fitness",
+    "icon": "assets/icons/gym.svg",
+    "image": "assets/images/amenities/gym.jpg",
+    "shortDescription": "Fitness area with modern equipment, free weights, and cardio studios.",
+    "longDescription": "A multi-level conditioning gymnasium outfitted with top-tier biomechanical strength stations, smart cardio machines with interactive screens, dedicated free-weight zones, and certified resident trainers.",
+    "highlights": [
+      "TechnoGym biomechanical weight machines",
+      "Panoramic cardio zone overlooking central park",
+      "TRX and functional training rig",
+      "Certified trainers & personalized workout programs"
+    ]
+  },
+  {
+    "id": "children-play-area",
+    "name": "Children's Play Area & Toddler Arena",
+    "category": "Family",
+    "icon": "assets/icons/tree.svg",
+    "image": "assets/images/playground/playground.jpg",
+    "shortDescription": "Dedicated safe recreation area with tactile play structures and protective flooring.",
+    "longDescription": "Crafted with child safety as the prime parameter. Features colorful climbing blocks, zip lines, swings, and interactive outdoor sensory games on certified impact-absorbent rubber flooring.",
+    "highlights": [
+      "Child-safe non-toxic materials throughout",
+      "Soft padded rubber impact surfacing",
+      "Continuous CCTV coverage and attentive security",
+      "Adjacent shaded pergola seating for parents"
+    ]
+  },
+  {
+    "id": "indoor-games",
+    "name": "Indoor Games & Billiards Lounge",
+    "category": "Recreation",
+    "icon": "assets/icons/sports.svg",
+    "image": "assets/images/amenities/indoor-games.jpg",
+    "shortDescription": "Indoor recreational activities including table tennis, billiards, and board games.",
+    "longDescription": "A climate-controlled leisure space designed for friendly neighborhood tournaments or relaxed family weekends. Includes championship pool tables, table tennis, foosball, carrom, and chess tables.",
+    "highlights": [
+      "Championship slate 8-ball and 9-ball tables",
+      "Dual tournament-grade table tennis tables",
+      "Acoustically insulated gaming consoles room",
+      "Dedicated chess, carrom, and board game booths"
+    ]
+  },
+  {
+    "id": "sports-court",
+    "name": "Multipurpose Sports Courts",
+    "category": "Sports",
+    "icon": "assets/icons/sports.svg",
+    "image": "assets/images/amenities/sports-court.jpg",
+    "shortDescription": "Space for outdoor sports including tennis, basketball, and badminton.",
+    "longDescription": "High-performance all-weather multi-sport courts equipped with tournament-grade floodlighting, rebound shock-absorption acrylic surfacing, and secure spectator netting.",
+    "highlights": [
+      "Full-sized regulation basketball court",
+      "Synthetic turf tennis / pickleball court",
+      "LED high-lux night floodlights for evening games",
+      "Tiered bleacher seating for neighborhood tournaments"
+    ]
+  },
+  {
+    "id": "community-hall",
+    "name": "Grand Community Hall & Banquet",
+    "category": "Social",
+    "icon": "assets/icons/clubhouse.svg",
+    "image": "assets/images/amenities/community-hall.jpg",
+    "shortDescription": "Venue for celebrations, birthdays, weddings, and community cultural events.",
+    "longDescription": "An opulent 300-capacity community hall with pre-function foyer, dedicated caterer's prep kitchen, state-of-the-art audiovisual system, and elegant chandeliers for milestone gatherings.",
+    "highlights": [
+      "Accommodates up to 300 guests with dining layout",
+      "Integrated acoustic ceiling and digital surround audio",
+      "Dedicated commercial-grade staging and green rooms",
+      "Spill-out garden lawn for al fresco celebrations"
+    ]
+  },
+  {
+    "id": "yoga-meditation",
+    "name": "Yoga & Meditation Pavilion",
+    "category": "Wellness",
+    "icon": "assets/icons/tree.svg",
+    "image": "assets/images/amenities/yoga-meditation.jpg",
+    "shortDescription": "Peaceful wellness space surrounded by tranquil bamboo groves and water bodies.",
+    "longDescription": "Engineered for holistic mental clarity. A peaceful open-air hardwood pavilion shielded by tall bamboo groves and gentle reflection ponds, holding daily sunrise yoga and sunset mindfulness sessions.",
+    "highlights": [
+      "Open-air natural teakwood yoga deck",
+      "Reflective shallow koi and lotus water body",
+      "Daily guided sunrise and pranayama sessions",
+      "Peaceful acoustic isolation from vehicular pathways"
+    ]
+  },
+  {
+    "id": "walking-track",
+    "name": "Elevated Green Walking Track",
+    "category": "Fitness",
+    "icon": "assets/icons/park.svg",
+    "image": "assets/images/amenities/walking-track.jpg",
+    "shortDescription": "Dedicated walking and jogging path through lush landscaped greenery.",
+    "longDescription": "A dedicated non-motorized loop that winds uninterrupted through the residential perimeter and botanical gardens. Fitted with low-impact polyurethane running surface and distance counters.",
+    "highlights": [
+      "2.2 km continuous loop with zero vehicular crossing",
+      "Triple-layered polyurethane joint-friendly track",
+      "Solar luminaire trail for safe late-night walks",
+      "Emergency panic buttons and call pillars every 200m"
+    ]
+  },
+  {
+    "id": "multipurpose-lawn",
+    "name": "Multipurpose Community Lawn",
+    "category": "Outdoors",
+    "icon": "assets/icons/park.svg",
+    "image": "assets/images/parks/family-lawn.jpg",
+    "shortDescription": "Open outdoor space for community activities, festivals, and sports practice.",
+    "longDescription": "A massive manicured emerald lawn that transforms seamlessly into a festival ground, yoga lawn, or weekend open-air movie screening amphitheater under the open stars.",
+    "highlights": [
+      "Natural Bermuda grass with sub-surface drainage",
+      "Power hookups for festive lighting and projector setups",
+      "Perimeter seating steps lined with blossoming trees",
+      "Safe open grounds for weekend family kite flying and games"
+    ]
+  }
+]

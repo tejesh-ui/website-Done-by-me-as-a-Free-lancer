@@ -1,0 +1,86 @@
+[
+  {
+    "id": "gallery-1",
+    "title": "Architectural Facade & Central Boulevard",
+    "category": "Exterior",
+    "image": "assets/images/gallery/gallery-1.jpg",
+    "description": "Modern multi-tier residential towers rising above lush landscaped boulevards at sunset."
+  },
+  {
+    "id": "gallery-2",
+    "title": "Sunlit Open Living Salon",
+    "category": "Apartments",
+    "image": "assets/images/gallery/gallery-2.jpg",
+    "description": "Spacious family living area featuring floor-to-ceiling glass and scenic terrace views."
+  },
+  {
+    "id": "gallery-3",
+    "title": "Central Community Park & Meadow",
+    "category": "Parks",
+    "image": "assets/images/gallery/gallery-3.jpg",
+    "description": "4.5 acres of rolling green meadows, manicured topiary, and shaded relaxation benches."
+  },
+  {
+    "id": "gallery-4",
+    "title": "Infinity Swimming Pool & Aqua Deck",
+    "category": "Amenities",
+    "image": "assets/images/gallery/gallery-4.jpg",
+    "description": "Resort-style infinity lap pool with heated jacuzzi and teakwood sun lounger cabanas."
+  },
+  {
+    "id": "gallery-5",
+    "title": "The Grand Clubhouse Portico",
+    "category": "Clubhouse",
+    "image": "assets/images/gallery/gallery-5.jpg",
+    "description": "35,000 sq.ft. architectural centerpiece welcoming residents to recreation and luxury."
+  },
+  {
+    "id": "gallery-6",
+    "title": "Master Suite with Garden Panorama",
+    "category": "Apartments",
+    "image": "assets/images/gallery/gallery-6.jpg",
+    "description": "Tranquil master bedroom with private balcony, warm acoustic wood paneling, and walk-in closet."
+  },
+  {
+    "id": "gallery-7",
+    "title": "Conditioning Gymnasium & Cardio Studio",
+    "category": "Amenities",
+    "image": "assets/images/gallery/gallery-7.jpg",
+    "description": "High-tech biomechanical training equipment overlooking the botanical garden perimeter."
+  },
+  {
+    "id": "gallery-8",
+    "title": "Botanical Floral Sanctuary",
+    "category": "Parks",
+    "image": "assets/images/gallery/gallery-8.jpg",
+    "description": "Aroma trail with over 150 identified indigenous medicinal and flowering botanical specimens."
+  },
+  {
+    "id": "gallery-9",
+    "title": "Children's Adventure Playground",
+    "category": "Lifestyle",
+    "image": "assets/images/gallery/gallery-9.jpg",
+    "description": "Safe shock-absorbent eco-play grounds, timber climbing structures, and toddler slides."
+  },
+  {
+    "id": "gallery-10",
+    "title": "Tower B Terrace & Skylight Terraces",
+    "category": "Exterior",
+    "image": "assets/images/gallery/gallery-10.jpg",
+    "description": "Clean geometric lines, expansive double-glazed glazing, and deep shaded balconies."
+  },
+  {
+    "id": "gallery-11",
+    "title": "Contemporary Italian-Style Modular Kitchen",
+    "category": "Apartments",
+    "image": "assets/images/gallery/gallery-11.jpg",
+    "description": "Ergonomic quartz countertops, built-in cooktops, soft-close cabinetry, and utility balcony access."
+  },
+  {
+    "id": "gallery-12",
+    "title": "Tree-Canopied Morning Jogging Track",
+    "category": "Lifestyle",
+    "image": "assets/images/gallery/gallery-12.jpg",
+    "description": "Cushioned polyurethane running track winding under the dense emerald foliage of mature trees."
+  }
+]

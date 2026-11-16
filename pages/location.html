@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location & Neighborhood | Green Haven Residences</title>
+  <meta name="description" content="Discover the strategic location of Green Haven Residences: seamless connectivity to schools, hospitals, IT corridors, and airport expressways.">
+  <link rel="icon" type="image/svg+xml" href="../assets/logos/logo-mark.svg">
+
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/hero.css">
+  <link rel="stylesheet" href="../css/apartments.css">
+  <link rel="stylesheet" href="../css/amenities.css">
+  <link rel="stylesheet" href="../css/parks.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="../index.html" class="brand-link" aria-label="Green Haven Residences">
+        <div class="brand-emblem">
+          <img src="../assets/logos/logo-mark.svg" alt="Green Haven Crest" width="26" height="26">
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">GREEN HAVEN</span>
+          <span class="brand-subtitle">RESIDENCES</span>
+        </div>
+      </a>
+
+      <nav class="nav-container" id="navContainer" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="apartments.html" class="nav-link">Apartments</a></li>
+          <li class="nav-item"><a href="amenities.html" class="nav-link">Amenities</a></li>
+          <li class="nav-item"><a href="parks.html" class="nav-link">Parks</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="location.html" class="nav-link active">Location</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="mobile-drawer-cta">
+          <a href="contact.html" class="btn btn-accent" style="width: 100%;">Schedule a Visit</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-accent btn-header-cta">Schedule a Visit</a>
+        <button class="nav-toggle-btn" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </header>
+
+  <main>
+    <!-- Sub-page Banner -->
+    <section class="section-dark" style="padding: 4.5rem 0 3.5rem; background: linear-gradient(135deg, var(--color-primary-dark) 0%, #153328 100%);">
+      <div class="container text-center">
+        <span class="badge badge-gold" style="margin-bottom: 1rem;">Strategic Connectivity</span>
+        <h1 class="section-title" style="color: #ffffff; font-size: 3.2rem;">Everything Within Reach</h1>
+        <p class="section-subtitle" style="color: var(--color-text-soft);">
+          Ideally situated at 100 Haven Boulevard in the Emerald District, balancing quiet natural seclusion with quick transit to premier urban hubs.
+        </p>
+      </div>
+    </section>
+
+    <!-- Location Overview Section (Section 19) -->
+    <section class="section" id="locationOverview">
+      <div class="container">
+        <div class="location-overview-split">
+          <div class="location-map-card">
+            <img src="../assets/images/hero/aerial-community.jpg" alt="Aerial Community Map" class="location-map-img">
+            <div class="map-badge-overlay">
+              <h3 class="map-badge-title">Green Haven Residences Campus</h3>
+              <p class="map-badge-desc">
+                100 Haven Boulevard, Emerald District. Immediate access to expressway ring roads and rapid metro lines.
+              </p>
+            </div>
+          </div>
+
+          <!-- Landmarks dynamically populated from data/locations.json -->
+          <div class="landmarks-grid" id="landmarksContainer"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Neighborhood Pillars -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="text-center" style="margin-bottom: 3.5rem;">
+          <span class="section-tag">Urban Convenience</span>
+          <h2 class="section-title">The Neighborhood Advantage</h2>
+          <p class="section-subtitle">
+            A flourishing neighborhood surrounded by reputed educational institutions, premier multispeciality hospitals, and corporate hubs.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card" style="padding: 2.25rem;">
+            <div style="width: 48px; height: 48px; border-radius: var(--radius-sm); background: var(--color-primary-soft); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <img src="../assets/icons/tree.svg" alt="Education" width="24" height="24">
+            </div>
+            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--color-primary-dark); margin-bottom: 0.5rem;">Schools & Colleges</h3>
+            <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
+              Oakridge International and Greenwood Valley are within 5-8 minutes, minimizing commute fatigue for your children.
+            </p>
+          </div>
+
+          <div class="card" style="padding: 2.25rem;">
+            <div style="width: 48px; height: 48px; border-radius: var(--radius-sm); background: var(--color-primary-soft); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <img src="../assets/icons/security.svg" alt="Healthcare" width="24" height="24">
+            </div>
+            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--color-primary-dark); margin-bottom: 0.5rem;">Healthcare Centers</h3>
+            <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
+              Apollo Super-Speciality Hospital and Columbia Asia are less than 10 minutes away for round-the-clock emergency medical peace of mind.
+            </p>
+          </div>
+
+          <div class="card" style="padding: 2.25rem;">
+            <div style="width: 48px; height: 48px; border-radius: var(--radius-sm); background: var(--color-primary-soft); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <img src="../assets/icons/map-pin.svg" alt="Business Hubs" width="24" height="24">
+            </div>
+            <h3 style="font-family: var(--font-serif); font-size: 1.3rem; color: var(--color-primary-dark); margin-bottom: 0.5rem;">IT & Business Districts</h3>
+            <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6;">
+              Reach CyberTech Innovation Park and the Financial City Hub within 15-18 minutes via the newly expanded 6-lane signal-free expressway.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit CTA -->
+    <section class="container" style="margin: 4rem auto;">
+      <div class="cta-banner">
+        <img src="../assets/images/hero/aerial-community.jpg" alt="Get Directions" class="cta-banner-bg" loading="lazy">
+        <div class="cta-banner-content">
+          <h2 class="cta-banner-title">Visit Our Experience Centre</h2>
+          <p class="cta-banner-text">
+            Our welcome pavilion offers on-site valet parking and personalized driving assistance.
+          </p>
+          <a href="contact.html" class="btn btn-white">
+            <span>Get Directions & Book Tour</span>
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="../index.html" class="footer-brand-link">
+            <img src="../assets/logos/logo-mark.svg" alt="Green Haven Crest" width="30" height="30">
+            <div>
+              <div class="footer-brand-title">GREEN HAVEN</div>
+              <div class="footer-brand-sub">RESIDENCES</div>
+            </div>
+          </a>
+          <p class="footer-desc">A premier residential enclave combining spacious contemporary residences, expansive botanical landscapes, and world-class recreation.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Explore</h4>
+          <ul class="footer-links-list">
+            <li><a href="apartments.html" class="footer-link">Apartments & Towers</a></li>
+            <li><a href="amenities.html" class="footer-link">Community Amenities</a></li>
+            <li><a href="parks.html" class="footer-link">Parks & Open Spaces</a></li>
+            <li><a href="gallery.html" class="footer-link">Photo Gallery</a></li>
+            <li><a href="location.html" class="footer-link">Neighborhood & Location</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Community</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">About Green Haven</a></li>
+            <li><a href="contact.html" class="footer-link">Schedule a Visit</a></li>
+            <li><a href="amenities.html#security" class="footer-link">Security & Parking</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <div class="footer-contact-items">
+            <div class="footer-contact-row"><span>Sales: +1 (800) 555-4283</span></div>
+            <div class="footer-contact-row"><span>Email: residences@greenhaven.com</span></div>
+            <div class="footer-contact-row"><span>100 Haven Blvd, Emerald District</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 Green Haven Residences. All rights reserved. Live Better. Live Together.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../js/app.js"></script>
+</body>
+</html>

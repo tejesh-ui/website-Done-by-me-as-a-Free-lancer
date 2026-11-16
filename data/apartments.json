@@ -1,0 +1,162 @@
+{
+  "towers": [
+    {
+      "id": "tower-a",
+      "name": "Tower A - Elm Crest",
+      "tagline": "Modern residential tower with spacious apartments.",
+      "floors": 24,
+      "units": 96,
+      "types": ["2 BHK", "3 BHK"],
+      "image": "assets/images/buildings/building-a.jpg",
+      "description": "Standing proudly on the eastern boulevard, Tower A offers panoramic morning sunrise vistas, direct access to the reflexology walking track, and whisper-quiet family homes.",
+      "completion": "Ready to Move",
+      "elevators": 4
+    },
+    {
+      "id": "tower-b",
+      "name": "Tower B - Cedar Point",
+      "tagline": "Contemporary family residences with landscaped views.",
+      "floors": 28,
+      "units": 112,
+      "types": ["3 BHK", "4 BHK"],
+      "image": "assets/images/buildings/building-b.jpg",
+      "description": "Designed for modern multi-generational families, Tower B overlooks the Central Botanical Garden with wide wrap-around balconies and expansive corner living layouts.",
+      "completion": "Ready to Move",
+      "elevators": 4
+    },
+    {
+      "id": "tower-c",
+      "name": "Tower C - Aspen Heights",
+      "tagline": "Premium apartments close to the central community amenities.",
+      "floors": 26,
+      "units": 78,
+      "types": ["3 BHK", "4 BHK", "Sky Penthouse"],
+      "image": "assets/images/buildings/building-c.jpg",
+      "description": "The crown jewel of Green Haven, Tower C is immediately adjacent to the Grand Clubhouse, swimming pavilions, and features double-height luxury penthouse residences.",
+      "completion": "Ready to Move",
+      "elevators": 4
+    },
+    {
+      "id": "tower-d",
+      "name": "Tower D - Willow Park",
+      "tagline": "Modern residences designed around open green spaces.",
+      "floors": 22,
+      "units": 88,
+      "types": ["2 BHK", "3 BHK"],
+      "image": "assets/images/buildings/building-d.jpg",
+      "description": "Nestled alongside the Family Lawn and Children's Adventure Zone, Tower D offers serene, bird-chirping greenery and an intimate, peaceful neighborhood vibe.",
+      "completion": "Ready to Move",
+      "elevators": 3
+    }
+  ],
+  "units": [
+    {
+      "id": "unit-2bhk",
+      "type": "2 BHK",
+      "category": "2 BHK",
+      "title": "Contemporary 2 BHK Luxury Residence",
+      "subtitle": "Comfortable family apartment with optimal spatial efficiency.",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "balconies": 1,
+      "area": "1,250 sq.ft.",
+      "carpetArea": "980 sq.ft.",
+      "parking": "1 Covered Dedicated Space",
+      "facing": "East / Garden Facing",
+      "image": "assets/images/apartments/apt-2bhk.jpg",
+      "towers": ["Tower A", "Tower D"],
+      "highlights": [
+        "Vastu Compliant Layout",
+        "Modular Italian-Style Kitchen",
+        "Master Suite with Balcony Access",
+        "Acoustic Double-Glazed Windows"
+      ],
+      "interiorImages": [
+        "assets/images/interiors/living-room.jpg",
+        "assets/images/interiors/kitchen.jpg"
+      ]
+    },
+    {
+      "id": "unit-3bhk",
+      "type": "3 BHK",
+      "category": "3 BHK",
+      "title": "Grand 3 BHK Family Residence",
+      "subtitle": "Spacious home for growing families seeking elegance and tranquility.",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "balconies": 2,
+      "area": "1,850 sq.ft.",
+      "carpetArea": "1,490 sq.ft.",
+      "parking": "2 Covered Dedicated Spaces",
+      "facing": "North-East / Central Park View",
+      "image": "assets/images/apartments/apt-3bhk.jpg",
+      "towers": ["Tower A", "Tower B", "Tower C"],
+      "highlights": [
+        "Dual Cross-Ventilated Balconies",
+        "Separate Utility & Pantry Space",
+        "Walk-In Closet in Primary Bedroom",
+        "Foyer Entrance for Privacy"
+      ],
+      "interiorImages": [
+        "assets/images/interiors/living-room.jpg",
+        "assets/images/interiors/bedroom.jpg",
+        "assets/images/interiors/balcony.jpg"
+      ]
+    },
+    {
+      "id": "unit-4bhk",
+      "type": "4 BHK",
+      "category": "4 BHK",
+      "title": "Executive 4 BHK Royal Residence",
+      "subtitle": "Premium large-format residence tailored for gracious entertaining.",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "balconies": 3,
+      "area": "2,650 sq.ft.",
+      "carpetArea": "2,150 sq.ft.",
+      "parking": "2 Covered Spaces + EV Point",
+      "facing": "Park & Lake Horizon View",
+      "image": "assets/images/apartments/apt-4bhk.jpg",
+      "towers": ["Tower B", "Tower C"],
+      "highlights": [
+        "Separate House-Help Quarters & Bath",
+        "Expansive 28-ft Living & Dining Deck",
+        "Smart Home Lighting & Climate Controls",
+        "Master Suite with Spa Bathtub"
+      ],
+      "interiorImages": [
+        "assets/images/interiors/living-room.jpg",
+        "assets/images/interiors/bedroom.jpg",
+        "assets/images/interiors/kitchen.jpg",
+        "assets/images/interiors/balcony.jpg"
+      ]
+    },
+    {
+      "id": "unit-penthouse",
+      "type": "Sky Penthouse",
+      "category": "Penthouse",
+      "title": "Signature Sky Penthouse Duplex",
+      "subtitle": "An exclusive limited-collection rooftop residence over looking the skyline.",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "balconies": 4,
+      "area": "3,800 sq.ft.",
+      "carpetArea": "3,100 sq.ft.",
+      "parking": "3 Covered Spaces + Fast EV",
+      "facing": "360-Degree Panoramic Horizon",
+      "image": "assets/images/apartments/apt-penthouse.jpg",
+      "towers": ["Tower C"],
+      "highlights": [
+        "Private Landscaped Sky Terrace",
+        "Double-Height Glass Living Salon",
+        "Private Elevator Access to Top Level",
+        "Designer Jacuzzi & Sun Deck"
+      ],
+      "interiorImages": [
+        "assets/images/apartments/apt-penthouse.jpg",
+        "assets/images/interiors/living-room.jpg",
+        "assets/images/interiors/balcony.jpg"
+      ]
+    }
+  ]
+}

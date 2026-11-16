@@ -1,0 +1,98 @@
+[
+  {
+    "id": "central-park",
+    "name": "Central Community Park",
+    "category": "Main Park",
+    "tagline": "The beating emerald heart of Green Haven Residences.",
+    "description": "The main landscaped green area of the community. Spanning over 4.5 acres, it combines expansive manicured lawns, peaceful ornamental water features, and serene shaded alcoves where neighbors gather and unwind.",
+    "area": "4.5 Acres",
+    "image": "assets/images/parks/central-park.jpg",
+    "icon": "assets/icons/tree.svg",
+    "features": [
+      "Lush central amphitheater lawn",
+      "Stepping-stone aquatic water features",
+      "Ambient warm evening pathway illumination",
+      "Pergolas draped with wisteria and bougainvillea"
+    ]
+  },
+  {
+    "id": "childrens-park",
+    "name": "Children's Park & Adventure Realm",
+    "category": "Kids",
+    "tagline": "Safe outdoor play area designed for wonder and active play.",
+    "description": "Safe outdoor play area for children. Engineered with shock-absorbent eco-rubber surfacing, timber climbing towers, and dedicated toddler zones ensuring playful childhood memories under attentive parental observation.",
+    "area": "1.2 Acres",
+    "image": "assets/images/parks/childrens-park.jpg",
+    "icon": "assets/icons/tree.svg",
+    "features": [
+      "Zero-injury European safety certified flooring",
+      "Custom multi-tier timber rope slides & swings",
+      "Filtered sand pits and sensory play stations",
+      "Covered parental seating cabanas with Wi-Fi"
+    ]
+  },
+  {
+    "id": "botanical-garden",
+    "name": "Botanical Garden & Flora Haven",
+    "category": "Garden",
+    "tagline": "A living sanctuary of oxygen-rich indigenous botanicals.",
+    "description": "Beautiful landscaped garden with plants and shaded seating. Curated by master horticulturists featuring over 150 therapeutic, oxygenating, and aromatic flowering species with tranquil stone benches.",
+    "area": "1.8 Acres",
+    "image": "assets/images/parks/botanical-garden.jpg",
+    "icon": "assets/icons/park.svg",
+    "features": [
+      "Over 150 identified indigenous flora & medicinal species",
+      "Aromatic night-blooming jasmine and lavender trails",
+      "Sculpted stone meditation and reading pods",
+      "Eco-friendly drip irrigation and rainwater reclamation"
+    ]
+  },
+  {
+    "id": "walking-park",
+    "name": "Walking Garden & Forest Trail",
+    "category": "Wellness",
+    "tagline": "Dedicated jogging and relaxation paths under dense tree canopies.",
+    "description": "Dedicated walking and relaxation area. Meandering beneath dense green tree canopies, this multi-textured track provides a dedicated space for morning joggers, brisk strollers, and contemplative evening walks.",
+    "area": "2.0 Acres",
+    "image": "assets/images/parks/walking-park.jpg",
+    "icon": "assets/icons/park.svg",
+    "features": [
+      "1.8 km continuous cushioned rubberized jogging loop",
+      "Natural pebble reflexology acupressure promenade",
+      "Dedicated solar-powered milestone timing markers",
+      "Drinking water hydration posts along the circuit"
+    ]
+  },
+  {
+    "id": "family-lawn",
+    "name": "Family Lawn & Celebration Meadow",
+    "category": "Community",
+    "tagline": "Open lawn for families, gatherings and community festivals.",
+    "description": "Open lawn for families, gatherings and community activities. A vast open green expanse designed for weekend picnics, seasonal stargazing, community farmers markets, and festive cultural get-togethers.",
+    "area": "2.5 Acres",
+    "image": "assets/images/parks/family-lawn.jpg",
+    "icon": "assets/icons/park.svg",
+    "features": [
+      "Ultra-soft Bermuda grass suitable for bare-foot lounging",
+      "Open-air acoustic amphitheater for community acoustic music",
+      "Weekend organic farmers market designated terrace",
+      "Gentle earthen mounds for picnic gatherings"
+    ]
+  },
+  {
+    "id": "senior-garden",
+    "name": "Senior Citizen Garden & Serenity Courtyard",
+    "category": "Serenity",
+    "tagline": "Quiet landscaped area with ergonomic seating and gentle walking paths.",
+    "description": "Quiet landscaped area with seating and walking paths. Intentionally engineered with zero-stair barrier-free ramps, handrail supports, non-slip textured stone, and gentle water fountains creating a peaceful retreat.",
+    "area": "1.0 Acre",
+    "image": "assets/images/parks/senior-garden.jpg",
+    "icon": "assets/icons/park.svg",
+    "features": [
+      "100% barrier-free zero-step accessibility",
+      "Ergonomically supported teakwood and stone benches",
+      "Tranquil low-decibel babbling stone water stream",
+      "Herbal fragrance pavilion with neem, tulsi, and lemongrass"
+    ]
+  }
+]
