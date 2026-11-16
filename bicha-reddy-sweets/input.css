@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Rounded corners for all buttons and button-style links across the site. */
+button,
+a.bg-primary,
+a.border-primary,
+a.border-accent-gold {
+    border-radius: 9999px !important;
+}
+
+/* Shared appearance and sizing for primary action buttons. */
+.site-action-button {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 14px 32px;
+    border: 2px solid #722f37;
+    border-radius: 9999px;
+    background-color: #722f37;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.site-action-button:hover {
+    border-color: #5a252c;
+    background-color: #5a252c;
+    color: #fff;
+}
+
+.site-action-button:focus-visible {
+    outline: 3px solid #d4af37;
+    outline-offset: 3px;
+}
+
+.store-direction-button {
+    margin-top: 0.5rem;
+    min-height: 36px;
+    padding: 7px 14px;
+    font-size: 0.8125rem;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+#mobile-menu a[aria-current="page"] {
+    color: #722f37;
+    font-weight: 600;
+}
+
+/* Keep the home page's major surfaces in one warm, consistent tone. */
+body.home-page main > section {
+    background-color: #F8F5F2;
+    background-image: none;
+}
+
+body.home-page #main-header {
+    background-color: #F8F5F2;
+}
