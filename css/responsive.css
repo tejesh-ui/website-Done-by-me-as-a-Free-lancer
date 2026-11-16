@@ -1,0 +1,121 @@
+/* =========================================================================
+   Responsive layer — Bootstrap breakpoints:
+   xxl ≥1400 · xl ≥1200 · lg ≥992 · md ≥768 · sm ≥576 · xs <576
+   ========================================================================= */
+
+/* Large desktop */
+@media (min-width: 1400px) {
+    .container { max-width: 1320px; }
+    .hero-stack__deck { width: 380px; }
+}
+
+/* Laptop: nav switches to the offcanvas menu below 1200px. */
+@media (max-width: 1199.98px) {
+    .site-nav > .container { min-height: 72px; }
+    .site-header.is-scrolled .site-nav > .container { min-height: 64px; }
+}
+
+/* Tablet landscape and below */
+@media (max-width: 991.98px) {
+    .hero { text-align: center; }
+    .hero__lead { margin-inline: auto; }
+    .hero .btn-row, .hero__points { justify-content: center; }
+    .hero-stack { margin-top: 3rem; }
+    .hero-stack__deck { width: clamp(240px, 46vw, 340px); margin-right: 14%; }
+
+    .feature-grid { gap: 1.75rem; }
+    .media-stack { max-width: 520px; margin: 0 auto 1rem; }
+    .signature-lead { min-height: 360px; }
+
+    .gallery-grid { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 190px; }
+    .gallery-grid--home .gallery-item:nth-child(n+6) { display: none; }
+
+    .section-head { align-items: flex-start; }
+}
+
+/* Tablet portrait */
+@media (max-width: 767.98px) {
+    :root { --section-y: 3.75rem; --allen-logo-w: var(--allen-logo-w-mobile); }
+    body { --bs-body-font-size: 1rem; }
+
+    .announce p { display: none; }
+    .announce__inner { justify-content: center; min-height: 34px; }
+
+    .allen-logo__name { font-size: 1.75rem; }
+    .allen-logo__tag { font-size: .6rem; letter-spacing: .24em; }
+
+    .feature-grid { grid-template-columns: 1fr; }
+
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 170px; gap: .6rem; }
+    .gallery-item--wide { grid-column: span 2; }
+    .gallery-item__cap { opacity: 1; transform: none; font-size: .72rem; }
+    .gallery-item::after { opacity: 1; }
+
+    .cta-band { text-align: center; }
+    .cta-band p { margin-inline: auto; }
+    .cta-band .btn-row { justify-content: center; }
+
+    .site-footer { padding-top: 4rem; }
+    .site-footer__bottom { flex-direction: column; align-items: flex-start; }
+
+    .step { padding: 1.25rem 1.25rem 1.25rem 4.25rem; }
+    .step::before { left: 1.1rem; top: 1.1rem; }
+
+    .float-wa { display: inline-flex; }
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .container { --bs-gutter-x: 1.5rem; }
+
+    .hero { padding-top: 2rem; }
+    .hero__title { letter-spacing: .01em; }
+    .hero .btn-row { flex-direction: column; align-items: stretch; }
+    .hero__points { gap: .6rem 1.25rem; font-size: .9rem; }
+    .hero-stack__deck { width: 68vw; margin-right: 18%; }
+    .hero-card figcaption { padding: .7rem .4rem .9rem; }
+    .hero-card__name { font-size: 1.55rem; }
+    .hero-card__line { font-size: .82rem; }
+    .hero-stack__btn { width: 48px; height: 48px; }
+
+    .section-head .btn { width: 100%; }
+    .btn-row > .btn { flex: 1 1 100%; }
+
+    .product-card__body { padding: .8rem .85rem .95rem; }
+    .product-card__title { font-size: 1.3rem; }
+    .product-card__cat { font-size: .64rem; }
+    .product-card__badge { font-size: .6rem; padding: .28rem .6rem; top: .5rem; }
+
+    .cat-card h3 { font-size: 1.6rem; left: 1rem; right: 1rem; bottom: 3.5rem; }
+    .cat-card p { font-size: .78rem; left: 1rem; right: 1rem; bottom: 1rem; }
+
+    .media-stack { padding: 0 0 1.75rem 1.75rem; }
+    .media-stack__tag { right: .75rem; top: .75rem; padding: .7rem .9rem; }
+    .media-stack__tag strong { font-size: 1.9rem; }
+
+    .signature-lead { min-height: 320px; }
+    .signature-lead__text { padding: 1.4rem; }
+
+    .testimonial { padding: 1.5rem; }
+    .panel { border-radius: var(--radius); }
+
+    .tab-pills { display: flex; width: 100%; }
+    .tab-pills .nav-item { flex: 1; }
+    .tab-pills .nav-link { width: 100%; padding: .6rem .5rem; font-size: .74rem; }
+
+    .enquiry-form__actions .btn-brand { width: 100%; }
+}
+
+/* Small mobile */
+@media (max-width: 374.98px) {
+    .allen-logo__text { display: none; }
+    .hero__title { font-size: 3rem; }
+    .gallery-grid { grid-auto-rows: 140px; }
+}
+
+/* Print: keep content, drop chrome. */
+@media print {
+    .site-header, .site-footer, .float-wa, .announce, .hero-stack__controls { display: none !important; }
+    body { padding-top: 0; background: #fff; color: #000; }
+    h1, h2, h3, h4, p, li, .lead, .text-soft { color: #000 !important; }
+}
